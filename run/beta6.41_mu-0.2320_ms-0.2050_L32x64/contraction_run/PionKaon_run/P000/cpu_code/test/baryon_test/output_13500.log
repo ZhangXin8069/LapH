@@ -1,0 +1,9 @@
+13500 job starts at Fri Feb 3 14:49:19 CST 2023
+0
+Traceback (most recent call last):
+  File "/beegfs/home/xinghy/LapH/contraction_code/cpu_code/contrac_baryon_hx.py", line 63, in <module>
+    VVV_sink=readin_VVV_all(VVV_dir, 100, Nev1,Nt,conf_id, Px, Py, Pz)
+  File "/beegfs/home/xinghy/LapH/contraction_code/cpu_code/input_output.py", line 39, in readin_VVV_all
+    f=open("%s/VVV.t%03i.Px%iPy%iPz%i.conf%s"%(VVV_dir, t, Px, Py, Pz, conf_id),'rb')
+FileNotFoundError: [Errno 2] No such file or directory: '/public/group/lqcd/eigensystem/beta6.41_mu-0.2320_ms-0.2050_L32x64/13500/VVV/VVV.t000.Px0Py0Pz0.conf13500'
+13500 job ends at Fri Feb 3 14:49:35 CST 2023
